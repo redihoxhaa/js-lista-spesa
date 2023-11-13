@@ -39,6 +39,7 @@ h1::before {
     content: "\f291";
     font-family: 'Font Awesome\ 5 Free';
     font-weight: bold;
+    margin-right: 2rem;
 }
 
 li {
