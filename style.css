@@ -1,49 +1,51 @@
 body {
-    font-family: 'Sarala', sans-serif;
-    background-color: rgb(23, 41, 48);
-    color: white;
+    font-family: 'Cedarville Cursive', cursive;
+    font-weight: bold;
+    background-color: rgb(245, 236, 219);
+    height: 100vh;
 }
 
 ul {
-    margin: 4rem 0 0 0;
+    margin: 10px 0 0 0;
     padding: 0 !important;
     list-style: none;
+
 }
 
 .container {
-    margin-top: 1.25rem;
     border: 2px solid lightgray;
-    border-radius: 20px;
     padding: 4rem;
+    max-width: 1200px;
+    height: 1000px;
+    background-image: url(notebook.jpg);
+    background-position: 90px;
+    overflow: hidden;
 }
 
 h1 {
-    padding: 1.25rem;
+    padding: .25rem;
     width: fit-content;
     background-color: rgba(255, 208, 0, 0.4);
-    border-radius: 20px;
+    border-top-left-radius: 20px 8px;
+    border-top-right-radius: 40px 15px;
+    border-bottom-left-radius: 50px 5px;
+    border-bottom-right-radius: 5px 50px;
     margin: 0 auto;
+    margin-top: -18px;
+    font-size: 4rem;
 }
 
 h1::before {
     content: "\f291";
     font-family: 'Font Awesome\ 5 Free';
     font-weight: bold;
-    margin-right: 20px;
 }
 
 li {
-    text-transform: uppercase;
-    padding: .3125rem 0;
+    padding: 17.6px 11rem;
+    font-size: 2rem;
 }
 
 li label {
     margin-left: 1.25rem;
 }
-
-/* li:before {
-    content: "\f02b";
-    font-family: 'Font Awesome\ 5 Free';
-    font-weight: bold;
-    margin-right: 10px;
-} */
